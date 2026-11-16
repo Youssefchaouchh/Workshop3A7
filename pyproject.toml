@@ -1,7 +1,7 @@
 [project]
 name = "workshop3a7"
 version = "0.1.0"
-description = "Add your description here"
+description = "Gestion des rendez-vous d'un cabinet médical - Technologies Web 2.0"
 readme = "README.md"
 authors = [
     { name = "Youssef Chaouch", email = "Youssef.Chaouch.1@esprit.tn" }
@@ -11,9 +11,5 @@ dependencies = [
     "django==5.2.*",
 ]
 
-[project.scripts]
-workshop3a7 = "workshop3a7:main"
-
-[build-system]
-requires = ["uv_build>=0.13.7,<0.14.0"]
-build-backend = "uv_build"
+[tool.uv]
+package = false
